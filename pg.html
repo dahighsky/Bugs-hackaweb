@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pg2</title>
+    
+
+    <link rel="stylesheet" type="text/css" href="pg.css">
+</head>
+<body>
+    <section>
+    <div class="centre">
+        <div class="left">
+            <form class="contentleft">
+            <div class="imgbx">
+                <img src="images/user.png" class="image">
+            </div>
+            <input type="text" class="horzbx" placeholder="Name"></input>
+            <input type="text" class="smallbx1" placeholder="Age" ></input>
+            <input type="text" class="smallbx2" placeholder="Sex" list="gender"></input>
+            <datalist id="gender"><option>Male</option><option>Female</option></datalist>
+        </form>
+        </div>
+        <div class="right">
+            <form class="contentright">
+                <input type="text" name="name" class="box1" placeholder="Blood" list="blood" ></input>
+                <datalist id="blood"><option>A+</option><option>B+</option><option>A-</option><option>B-</option><option>AB+</option><option>AB-</option><option>O+</option><option>O-</option></datalist>
+                <input type="text"  class="box2" placeholder="Inventory" list="inv" ></input>
+                <datalist id="inv"><option>Ventilators</option><option>CT-Scan</option><option>MRI-Scan</option><option>X-Ray</option></datalist>
+                <input type="text" class="box3" placeholder="Specialist" list="spec"></input>
+                <datalist Id="spec"><option>Neurologist</option><option>Urologist</option><option>Pediatrician</option><option>Cardiologist</option></datalist>
+                <input type="text" class="box4" placeholder="Test And Surgeries Done" ></input>
+                <input type="button" class="box5" value="SUBMIT" style=" font-weight:bold;">
+            </form>
+        </div>
+    </div>
+<!-- </form>  -->
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
