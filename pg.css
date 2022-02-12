@@ -234,6 +234,35 @@ button:hover {
 }
 
 
+/* --------------------------------------------- FOOTER --------------------------------------- */
+footer{
+    width: 100%;
+    padding: 20px;
+    background-color: #2d2d2a;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer>img{
+    height: 55px;
+}
+footer>span{
+    display: inline-block;
+    width: 100px;
+    padding: auto auto;
+    color: white;
+    text-align: center;
+}
+footer>span>a{
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+footer>span>a:hover{
+    color:#e63946;
+}
+
 
 
 
