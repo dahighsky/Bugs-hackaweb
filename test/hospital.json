@@ -1,0 +1,48 @@
+{
+	"hospA":{
+		"blood":["A+","B-","O+"],
+		"inv":["Ventilators","CT-Scan","MRI Scan","X-Ray"],
+		"specialist":["allergist ","dermatologist","midwife","occupational therapist","oncologist","chiropractor"]	,
+		"bed":30,
+		"dist":{
+			"hospD":2670,
+			"hospB":95,
+			"hospC":207
+		}
+	},
+
+	"hospB":{
+		"blood":["AB+","O-","O+"],
+		"inv":["Ventilators","CT-Scan","MRI Scan","X-Ray"],
+		"specialist":["ophthalmologist ","dermatologist","midwife","obstetrician","neurologist","naturopath"]	,
+		"bed":3,
+		"dist":{
+			"hospD":70,
+			"hospB":985,
+			"hospC":45
+		}
+	},
+
+	"hospC":{
+		"blood":["B+","AB-","O+"],
+		"inv":["Ventilators","CT-Scan","MRI Scan","X-Ray"],
+		"specialist":["podiatrist","radiologist","pediatrician","oncologist"]	,
+		"bed":150,
+		"dist":{
+			"hospD":160,
+			"hospB":9,
+			"hospC":65
+		}
+	},
+	"hospD":{
+		"blood":["B+","AB-","O+"],
+		"inv":["Ventilators","CT-Scan","MRI Scan","X-Ray"],
+		"specialist":["allergist ","cardiologist","occupational therapist","occupational therapist","oncologist","fertility specialist"]	,
+		"bed":150,
+		"dist":{
+			"hospD":670,
+			"hospB":9,
+			"hospC":27
+		}
+	}
+}
