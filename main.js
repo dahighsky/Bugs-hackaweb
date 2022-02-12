@@ -1,12 +1,13 @@
 console.log("Done");
 
-var name = ["H-1","H-2","H-3","H-4"];
+var name = ["h1","h2","h3","h4"];
 var bloodd = [["A+","B+","C+"],["A+","B+","C+"],["A+","B+","C+"],["A+","B+","C+"]];
 var invv = [["Ventilators","CT-Scan","MRI Scan","X-Ray"],["Ventilators","CT-Scan","MRI Scan","X-Ray"],["Ventilators","CT-Scan","MRI Scan","X-Ray"],["Ventilators","CT-Scan","MRI Scan","X-Ray"]];
-var specialistt = [["allergist ","dermatologist","midwife","occupational therapist","oncologist","chiropractor"],
-["ophthalmologist ","dermatologist","midwife","obstetrician","neurologist","naturopath"],
-["podiatrist","radiologist","pediatrician","oncologist"],
-["allergist ","cardiologist","occupational therapist","occupational therapist","oncologist","fertility specialist"]
+var specialistt = [
+    ["Neurologist","Urologist","Pediatrician","Cardiologist"],
+    ["Neurologist","Urologist","Pediatrician","Cardiologist"],
+    ["Neurologist","Urologist","Pediatrician","Cardiologist"],
+    ["Neurologist","Urologist","Pediatrician","Cardiologist"]
 ];
 
 // Taking Values 
@@ -33,7 +34,8 @@ but.addEventListener("click",function(){
         //     nammee.push(temp);
         //     let nammeee = JSON.stringify(nammee);
         //     localStorage.setItem("patient",nammeee);
-
+    
+    let chick = []
     let check = [0,0,0,0];
     for(let i = 0;i < 4;++i){
         if(bloodd[i].includes(blood)){
@@ -48,5 +50,12 @@ but.addEventListener("click",function(){
         }
     }
     console.log(check);
+    for(let i in check){
+        if(check[i] == 3){
+            chick.push(i);
+        }
+    }
+    chick = JSON.stringify(chick);
+    localStorage.setItem("rec",chick);
 
 });
