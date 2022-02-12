@@ -1,18 +1,28 @@
 console.log("Js linked");
 
+let id = ["h1","h2","h3","h4"];
+
 // Login system Start
 
-var submit_login = document.querySelector('.submit_login') ;
+var submit_login = document.querySelector('.button') ;
 console.log(submit_login);
 submit_login.addEventListener("click",function(){
     var username = "";
     var pwd = "";
-    var email = document.querySelector(".email_login").value;
-    var pass = document.querySelector(".pass_login").value;
-    // Login Authentication
-    // Storing
-    localStorage.setItem("Session",email);
-    window.open("1.html");
+    var email = document.querySelector(".id").value;
+    var pass = document.querySelector(".pass").value;
+    
+    if(id.includes(email)){
+        if(pass == 123){
+            localStorage.setItem("Session",email);
+        }
+        else{
+            alert("Invalid Login Credentials")
+        }
+    }
+    else{
+        alert("Invalid Login Credentials")
+    }
 });
 
 // Login system stop
