@@ -10,6 +10,8 @@ submit_login.addEventListener("click",function(){
     // Login Authentication
     // Storing
     localStorage.setItem("Session",email);
+    window.open("1.html");
 });
 
 // Login system stop
+
