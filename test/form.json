@@ -1,7 +1,7 @@
 {
 	"name":"name_var",
 	"age":"age_var",
-	"sex":"sex_var",
+	"sex":"sex_svar",
 	"blood":"blood_var",
 	"diagonise":"diagonise_var",	
 	"specialist":"var",
