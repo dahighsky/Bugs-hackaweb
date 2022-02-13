@@ -342,6 +342,7 @@ section{
 .hospitalItem{
     padding: 10px 10px;
     border-radius: 10px;
+    border: 1px solid #f5f5f7;
 }
 .hospitalItem:hover{
     background-color: #2d2d2a;
