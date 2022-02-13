@@ -52,7 +52,7 @@ console.log(dist.innerHTML = hh[3]);
 
 // referal store
 let namme = localStorage.getItem('ref');
-namme = JSON.parse(namme);
+
 let active = localStorage.getItem("active");
 active = JSON.parse(active)
 console.log(active);
@@ -64,29 +64,37 @@ if(namme){
     namme = localStorage.getItem('ref');
 }
 
+namme = JSON.parse(namme);
 console.log(namme);
 
 let red = document.querySelector(".box2");
 red.addEventListener("click",function(){
     namme[0].push(active);
+    namme = JSON.stringify(namme);
+    localStorage.setItem("ref",namme);
+    window.open("home.html");
 });
 
 red = document.querySelector(".box3");
 red.addEventListener("click",function(){
     namme[1].push(active);
-    console.log(namme);
+    namme = JSON.stringify(namme);
+    localStorage.setItem("ref",namme);
+    window.open("home.html");
 });
 
 red = document.querySelector(".box4");
 red.addEventListener("click",function(){
     namme[2].push(active);
-    console.log(namme);
+    namme = JSON.stringify(namme);
+    localStorage.setItem("ref",namme);
+    window.open("home.html");
 });
 
 red = document.querySelector(".box5");
 red.addEventListener("click",function(){
     namme[3].push(active);
-    console.log(namme);
+    namme = JSON.stringify(namme);
+    localStorage.setItem("ref",namme);
+    window.open("home.html");
 });
-
-console.log(namme);
