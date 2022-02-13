@@ -101,8 +101,8 @@ section{
     box-sizing: content-box;    
     margin: auto auto auto auto;
     padding: 5vh 5vw;
-    border-radius: 10px;
-    border: 5px solid #e63946;
+    border-radius: 20px;
+    border: 2px solid #e63946;
 }
 
 .left{
