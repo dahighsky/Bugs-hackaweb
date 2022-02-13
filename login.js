@@ -14,6 +14,7 @@ submit_login.addEventListener("click",function(){
     
     if(id.includes(email)){
         if(pass == 123){
+            localStorage.setItem("Session",email);
             window.open("home.html", "_self"); 
         }
         else{
