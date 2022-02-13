@@ -1,7 +1,7 @@
 console.log("Done");
 
 var name = ["h1","h2","h3","h4"];
-var bloodd = [["A+","B+","C+"],["A+","B+","C+"],["A+","B+","C+"],["A+","B+","C+"]];
+var bloodd = [["A+","B+","A-","B-","O-","O+","AB-"],["A+","B+","A-","B-","O-","O+"],["A+","B+","A-","B-","O-","O+"],["A+","B+","AB+","AB-"]];
 var invv = [["Ventilators","CT-Scan","MRI Scan","X-Ray"],["Ventilators","CT-Scan","MRI Scan","X-Ray"],["Ventilators","CT-Scan","MRI Scan","X-Ray"],["Ventilators","CT-Scan","MRI Scan","X-Ray"]];
 var specialistt = [
     ["Neurologist","Urologist","Pediatrician","Cardiologist"],
