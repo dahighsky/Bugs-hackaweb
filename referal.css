@@ -113,13 +113,15 @@ section{
 /* --------------------------------------------- FOOTER --------------------------------------- */
 footer{
     width: 100%;
-    padding: 20px;
+    padding: 0px 20px;
     background-color: #2d2d2a;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    bottom: 0px;
 }
 footer>img{
     height: 55px;
