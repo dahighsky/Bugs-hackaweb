@@ -35,6 +35,8 @@ but.addEventListener("click",function(){
             nammee.push(temp);
             let nammeee = JSON.stringify(nammee);
             localStorage.setItem("patient",nammeee);
+            let temm = JSON.stringify(temp);
+            localStorage.setItem("active",temm);
     
     let chick = []
     let check = [0,0,0,0];
