@@ -21,19 +21,20 @@ but.addEventListener("click",function(){
     var inv = document.querySelector(".box2").value;
     var spec = document.querySelector(".box3").value;
     var textarea = document.querySelector(".box4").value;
-        // var temp = [name,age,gender,blood,inv,spec,textarea];
+    
+        var temp = [name,age,gender,blood,inv,spec,textarea];
 
-        // const namme = localStorage.getItem('patient');
+        const namme = localStorage.getItem('patient');
 
-        // if(namme){
-        // }else{
-        //     let neww = JSON.stringify([]);
-        //     localStorage.setItem("patient",neww);
-        // }
-        // let nammee = JSON.parse(namme);
-        //     nammee.push(temp);
-        //     let nammeee = JSON.stringify(nammee);
-        //     localStorage.setItem("patient",nammeee);
+        if(namme){
+        }else{
+            let neww = JSON.stringify([]);
+            localStorage.setItem("patient",neww);
+        }
+        let nammee = JSON.parse(namme);
+            nammee.push(temp);
+            let nammeee = JSON.stringify(nammee);
+            localStorage.setItem("patient",nammeee);
     
     let chick = []
     let check = [0,0,0,0];
