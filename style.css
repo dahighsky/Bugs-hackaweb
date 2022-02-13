@@ -270,6 +270,7 @@ section{
 .containerMain a{
     color: white;
     display: inline-block;
+    text-decoration: none;
 }
 .containerMain a:hover{
     color: white;
