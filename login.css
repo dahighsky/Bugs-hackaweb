@@ -187,7 +187,7 @@ input{
         padding: 5px 5px;
     }
 }
-/* ---------------------------------- FOOTER -------------------------------- */
+/* --------------------------------------------- FOOTER --------------------------------------- */
 footer{
     width: 100%;
     padding: 20px;
@@ -201,18 +201,30 @@ footer{
 footer>img{
     height: 55px;
 }
-footer>span{
-    display: inline-block;
+footer>img:hover{
+    height: 58px;
+    border-radius: 10000px;
+    border: 2px solid red;
+}
+footer>div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer>div>span{
+    display: block;
     width: 100px;
     padding: auto auto;
     color: white;
     text-align: center;
 }
-footer>span>a{
+footer>div>span>a{
     text-decoration: none;
     color:rgb(255, 255, 255)
 }
-footer>span>a:hover{
+footer>div>span>a:hover{
     color:#e63946;
 }
 

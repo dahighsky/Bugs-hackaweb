@@ -1,11 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Regular.ttf);
+}
+::-webkit-scrollbar{
+    width: 3px;
+}
+::-webkit-scrollbar-track{
+    background-color: none;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #cfcfcf;
+    height: 10px;
+}
 body{
+    font-family: Gilroy;    
+    background-image: url(images/dijin-waves.png);
     background-color: #f5f5f7;
-    /* padding: auto auto auto auto; */
-    /* align-items: center;
-    display: flex;
-    justify-content: centre;
-    align-items: center; */
-    /* margin: auto auto auto auto; */
+    background-size: 1580px 100vh;
+    background-attachment: fixed;
 }
 section{
     width: 100%;
@@ -243,22 +260,36 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    bottom: 0px;
 }
 footer>img{
     height: 55px;
 }
-footer>span{
-    display: inline-block;
+footer>img:hover{
+    height: 58px;
+    border-radius: 10000px;
+    border: 2px solid red;
+}
+footer>div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer>div>span{
+    display: block;
     width: 100px;
     padding: auto auto;
     color: white;
     text-align: center;
 }
-footer>span>a{
+footer>div>span>a{
     text-decoration: none;
     color:rgb(255, 255, 255)
 }
-footer>span>a:hover{
+footer>div>span>a:hover{
     color:#e63946;
 }
 
