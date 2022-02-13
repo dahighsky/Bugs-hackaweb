@@ -60,5 +60,6 @@ but.addEventListener("click",function(){
     }
     chick = JSON.stringify(chick);
     localStorage.setItem("rec",chick);
+    window.open("referal.html")
 
 });
