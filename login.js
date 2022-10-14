@@ -1,7 +1,6 @@
 console.log("Js linked");
 alert("Use \"h1/h2/h3/h4\" as the IDs tp log in to different hospital profiles and \"123\" as password for all of them to log in. \n\n ~~This is just a development build that's why passwords are povided otherwise all the log in credentials are kept confidential~~")
 
-
 let id = ["h1","h2","h3","h4"];
 
 // Login system Start
